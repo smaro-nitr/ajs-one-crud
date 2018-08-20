@@ -2,7 +2,6 @@
 
 ## About
 AngularJs 1.72 Based CRUD with Bootstrap
-License : GPL-3.0
 
 ## Installation
 ```
