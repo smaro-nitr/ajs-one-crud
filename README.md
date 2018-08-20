@@ -9,9 +9,13 @@ License : GPL-3.0
 npm install connect -S -E
 npm install serve-static -S -E
 ```
+OR
+```
+npm install
+```
 
 ## Execution
 ```
 npm start
 ```
-Project will be running at http://localhost:8080/
+Project will be running at http://localhost:8081/
