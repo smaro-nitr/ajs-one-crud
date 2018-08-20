@@ -7,8 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smaro-nitr/ajs-one-crud.git"
+  },
   "author": "Subhendu Kumar Sahoo",
   "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/smaro-nitr/ajs-one-crud/issues"
+  },
+  "homepage": "https://github.com/smaro-nitr/ajs-one-crud#readme",
   "dependencies": {
     "connect": "3.6.6",
     "serve-static": "1.13.2"
