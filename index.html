@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#000000">
+        
+		<title>Subhendu</title>
+		<!-- 
+			Application
+				Website : smaro-nitr.github.com
+			Developer
+				Subhendu Kumar Sahoo
+			Support
+				smaro.nitr@gmail.com 
+				Pune, MH, India © 2018
+		-->
+		<meta name="author" content="Subhendu Kumar Sahoo" />
+		<meta name="contact" content="smaro.nitr@gmail.com" />
+		
+        <link rel="icon" href="src/assets/img/logo.png" type="image/png" sizes="16x16">
+
+        <link rel="stylesheet" type="text/css" href="src/assets/css/lib/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		
+        <link rel="stylesheet" type="text/css" href="src/assets/css/index.css">
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.18/angular-ui-router.js"></script>
+        
+        <script src="routing.js"></script>
+        <script src="src/service/ajs-one-crud.service.js"></script>
+        <script src="src/directive/navbar/navbar.js"></script>
+        <script src="src/directive/footer/footer.js"></script>
+		<script src="src/component/home/home.js"></script>
+		<script src="src/component/in-progress/in-progress.js"></script>
+	</head>
+	<body ng-app="myApp" id="smaro-nitr">
+		<custom-navbar></custom-navbar>
+		<section>
+			<ui-view ng-cloak></ui-view>
+		</section>
+		<custom-footer></custom-footer>
+
+		<script src="src/assets/js/lib/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="src/assets/js/lib/bootstrap.min.js"></script>
+	</body>
+</html>
